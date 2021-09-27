@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="Be-one is a clean HTML5/CSS3 template suitable for Business, Corporate, Taxes, Broker, Ad...">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Title -->
+<title>Community Epis │ Universida Privada de Tacna │ UPT</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/logopagina.ico">
+
+
+<!-- CSS Here -->
+   <!-- MagnificPopup.css -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!-- SlickNav.css -->
+   <link rel="stylesheet" href="assets/css/slicknav.min.css">
+   <!-- Owl.carousel.css -->
+   <link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css">
+   <!-- Fontawesome.css -->
+   <link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css">
+   <!-- Bootstrap.css -->
+   <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
+   <!-- Default.css -->
+   <link rel="stylesheet" href="assets/css/default.css">
+   <!-- Style.css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Responsive.css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+
+   <!-- ColorNip.css -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-colors/theme-default.css">
+
+
+   <!-- Jquery -->
+   <script src="assets/js/jquery-3.4.1.min.js"></script>
+
+
+<!-- probando ...  -->
+    <script>
+        $(document).ready(function(){
+
+        $( "#target" ).on(function( event ) {
+        
+        var laborando = $("#actualmentelaborando").val();
+        if(laborando=="" ){
+            $('#paso1').modal('show');
+            event.preventDefault();//Esto es para cancelar el envio
+        }else{
+            alert( "Los datos se enviaran!." );
+        }  
+        });
+    });
+    </script>
+ 
+<!-- probando ...  -->
+
+</head>
+<body>
+
+   
+    <!-- Search Modal -->
+    <!-- <div class="modal fade" id="search-modal">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <form action="index.html" class="search-popup-wrapper">
+                     <input type="search" placeholder="Search here...">
+                     <i class="fas fa-search"></i>
+                 </form>
+             </div>
+         </div>
+     </div> -->
+     <!-- End Search Modal -->
+    <!-- Start Header Area -->
+    <div class="header-area">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="site-logo">
+                            <img src="assets\logo\LogoUpt.png" width="130" height="50">
+                            <img src="assets\logo\epis.png" width="50" height="50">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-6 d-lg-none static text-right">
+                        <div class="show-mobile-menu"></div>
+                    </div>
+                    <div class="col-lg-9 text-right d-none d-lg-block">
+                        <nav class="menu-wrapper">
+                            <ul class="main-menu" id="mobile-menu">
+                                <li><a href="#">Sobre EPIS</a></li>
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#beneficios">Beneficios</a></li>
+                                <li><a href="#portfolio">Comunity EPIS</a></li>
+                                <li><a href="#alumniepis">Nosotros</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact-us">Contáctenos</a></li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Area -->
+    <!-- Start Slider Area -->
+    <div class="slider-area ">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="slider-carousel owl-carousel">
+                        <div class="single-slider slider-bg-1 text-center">
+                            <div class="slider-inner">
+                                <h1>Comunity Epis</h1>
+                                <h5></h5>
+                                
+                            </div>
+                        </div>
+                        <div class="single-slider slider-bg-2 text-center">
+                            <div class="slider-inner">
+                                <h1>Egresado</h1>
+                            </div>
+                        </div>
+                        <div class="single-slider slider-bg-3 text-center">
+                            <div class="slider-inner">
+                                <h1>Egresado EPIS</h1>								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Area -->
+    <!-- Start Hire Us Area -->
+    <div class="hire-us-area theme-bg js--sticky-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-9 col-12">
+                    <div class="hire-us-content">
+                        
+                    </div>  
+                </div>
+                <div class="col-lg-3 col-md-3  offset-lg-2 col-12 text-right">
+                    <a class="btn hire-us-button" href="vista.html">Actualiza Tus Datos</a>
+                    <!-- <button type="button" class="btn hire-us-button" data-toggle="modal" data-target="#actualizardatos">Actualiza Tus Datos</button> -->
+                </div>
+
+
+
+                
+                <div class="modal fade" id="actualizardatos" tabindex="-1" role="dialog" aria-labelledby="actualizardatos" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="assets/logo/epis.png" width="100%" height="200" >
+                        
+                    </div>
+                    <div class="modal-body">
+                        <label   style="text-align: center;" ><b>Actualiza tus Datos</b></label>
+                        <form method="POST" id="lg_formR">
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Nombre Completo</label>
+                                <input type="text" id="nombreusu" class="form-control trial-input" placeholder="Nombre completo" required="" style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Apellido Completo</label>
+                                <input type="text" id="apellidousu" class="form-control trial-input" placeholder="Apellido completo" required="" style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">DNI</label>
+                                <input type="text" id="dniusu" class="form-control trial-input" placeholder="DNI" required="" style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Telefono</label>
+                                <input type="text" id="telefonousu" class="form-control trial-input" placeholder="Telefono y/o celular" required="" style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Email</label>
+                                <input type="email" id="correo" class="form-control trial-input" placeholder="Correo mas usado" required style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Password</label>
+                                <input type="password" id="clave" class="form-control trial-input" placeholder="Password" required style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Año de Egreso de la Universidad</label>
+                                <input type="number" id="anioegresousu" class="form-control trial-input" placeholder="Año en que egresaste de la universidad" required="" style="color: black;">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Actualmente Usted es </label>
+                                <br>
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="egresado">
+                                <label for="gradoprofactualusu">Egresado</label><br>  
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="bachiller">
+                                <label for="gradoprofactualusu">Bachiller</label><br>
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="ingeniero">
+                                <label for="gradoprofactualusu">Ingeniero</label><br>  
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="magister">
+                                <label for="gradoprofactualusu">Magister</label><br>                                            
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="doctor">
+                                <label for="gradoprofactualusu">Doctor</label><br>  
+                                <input type="radio" id="gradoprofactualusu" name="gradoprofactualusu" value="otro">
+                                <label for="gradoprofactualusu">Otro...</label><br>
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Actualmente radica en la ciudad de</label>
+                                <input type="text" id="radicacionactualusu" class="form-control trial-input" style="color: black;" placeholder="Ciudad Actual" required="">
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Area en la que mejor se desemvuelve y/o prefiere</label> 
+                                <br>
+                                <input type="radio" id="areadesemvuelveusu" name="areadesemvuelveusu" value="Desarrollo de software">
+                                <label for="areadesemvuelveusu">Desarrollo de Software</label><br>  
+                                <input type="radio" id="areadesemvuelveusu" name="areadesemvuelveusu" value="Infraestructura de TI">
+                                <label for="areadesemvuelveusu">Infraestructura de TI</label><br>
+                                <input type="radio" id="areadesemvuelveusu" name="areadesemvuelveusu" value="Base de datos">
+                                <label for="areadesemvuelveusu">Base de Datos</label><br>  
+                                <input type="radio" id="areadesemvuelveusu" name="areadesemvuelveusu" value="Otro">
+                                <label for="areadesemvuelveusu">Otro...</label><br>
+                                
+                            </div>
+                            <div class="col-lg-12 mt-3">
+                                <label class="text-black">Actualmente se encuentra laborando</label>
+                                <br>
+                                <input type="radio" id="laborandoactualusu1" name="laborandoactualusu" value="SI">
+                                <label for="laborandoactualusu">Si estoy laborando</label><br>  
+                                <input type="radio" id="laborandoactualusu2" name="laborandoactualusu" value="No">
+                                <label for="laborandoactualusu">No estoy laborando</label><br>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#paso1">Enviar</button>
+                            </div>
+                        </form>
+
+                        <!-- <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Apellido Completo:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">DNI:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Telefono:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Email:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Año de Egreso de la Universidad:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Actualmente Usted es:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Actualmente radica en la ciudad de:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Area en la que mejor se desemvuelve:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="actualmentelaborando" class="col-form-label">Actualmente se encuentra laborando:</label>
+                            <input type="text" class="form-control" id="actualmentelaborando">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        </form> -->
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#paso1">Enviar</button>
+                    </div> -->
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="modal fade" id="paso1" tabindex="-1" role="dialog" aria-labelledby="paso1" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="assets/logo/epis.png" width="100%" height="200" >
+                            
+                        </div>
+                        <div class="modal-body">
+                            <label   style="text-align: center;" ><b>Centro Laboral</b></label>
+                            
+                            <form>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Descripcion (opcional):</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Area en la que viene laborando actualmente:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Direccion de Correo Electronico de la Empresa:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Telefono de la empresa:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#paso2" >Enviar</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="modal fade" id="paso2" tabindex="-1" role="dialog" aria-labelledby="paso2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <img src="assets/logo/epis.png" width="100%" height="200" >
+                                
+                            </div>
+                            <div class="modal-body">
+                                <label   style="text-align: center;" ><b>Informacion sobre mejoras</b></label>
+                                
+                                <form>
+                                    <div class="form-group">
+                                        <label for="message-text" class="col-form-label">Una fortaleza obtenida en su formacion academica que deberia mantenerse:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Una debilidad en su formacion academica que deberia reforzarse y/o atenderse :</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Algun aspecto que piense que deberia incluirse en la curricula debido a su experiencia fuera de la Universidad :</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">alguna sugerencia o solicitud:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Actualizar</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- End Hire Us Area -->
+
+    <!-- Start Icon Box Area -->
+    <div class="icon-box-area pt-70 pb-70" id="alumniepis">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6>¿Qué es Comunity Epis ?</h6>
+                    <br>
+                    <h7>Te damos la bienvenida a Comunity Epis, un espacio creado para fortalecer la comunidad de egresados EPIS UPT y donde compartiremos información actualizada del sector laboral. Entérate de las últimas novedades, casos de éxito y beneficios exclusivos para ti.</h7>
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-icon-box foto_1">
+                        <div class="icon-box-content">
+                            <h6 class="iconbox-content-heading"><i class="far fa-chart-bar"></i> Comunity EPIS</h6>
+                            <div class="iconbox-content-body">
+                                <p>Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies, nibh ipsum egestas nunc, id porta nibh nunc non felis. Vestibulum nibh urna, lobortis ut euismod sed, dignissim non neque</p>
+                                <a class="btn btn-inline read-more-btn" href="#"><i class="fas fa-plus-square"></i> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Icon Box Area -->
+    <!-- Start Icon Box Area -->
+    <div class="icon-box-area pt-70 pb-70" id="beneficios">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-80">
+                    <div class="section-title">
+                        <h4>Beneficios</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-icon-box icon-box-img-1">
+                        <div class="icon-box-content">
+                            <h6 class="iconbox-content-heading"><i class="far fa-chart-bar"></i> Bolsa de Trabajo</h6>
+                            <div class="iconbox-content-body">
+                                <p>Como Alumni UPT tienes acceso a la Bolsa de Trabajo para toda la vida. Ingresa hoy y conoce a las empresas que publican sus ofertas laborales con nosotros.</p>
+                                <a class="btn btn-inline read-more-btn" href="http://www.upt.edu.pe/upt/web/home/contenido/265/46708068"><i class="fas fa-plus-square"></i> Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-icon-box icon-box-img-2">
+                        <div class="icon-box-content">
+                            <h6 class="iconbox-content-heading"><i class="fas fa-cogs"></i> Capacitaciones Catec</h6>
+                            <div class="iconbox-content-body">
+                                <p>Continua aprendiendo en la Escuela de Postgrado UPT, donde encontrarás diferentes programas que te ayudarán a potenciar tu perfil profesional con conociemientos.</p>
+                                <a class="btn btn-inline read-more-btn" href="https://upt-catec.github.io/"><i class="fas fa-plus-square"></i> Pag.</a>
+                                
+                                <a class="btn btn-inline read-more-btn" href="https://www.youtube.com/channel/UC-66owxXp5mgIHxQlg3v2OA"><i class="fas fa-plus-square"></i> Youtube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-icon-box icon-box-img-3">
+                        <div class="icon-box-content">
+                            <h6 class="iconbox-content-heading"><i class="fas fa-chart-line"></i> Ruta Laboral Virtual</h6>
+                            <div class="iconbox-content-body">
+                                <p>En este curso online encontrarás herramientas que te ayudarán a lograr tus objetivos profesionales. Se encuentra disponible las 24 horas del día, los 365 días del año.</p>
+                                <a class="btn btn-inline read-more-btn" href="#"><i class="fas fa-plus-square"></i>Ingresar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Icon Box Area -->
+    <!-- Start We are Bemax Area -->
+    <div class="bemax-area gray-bg pt-65 pb-25">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-70">
+                    <div class="section-title">
+                        <h4>Informacion sobre tramites documentarios</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-bemax-item d-flex">
+                        <div class="item-icon">
+                           <a href="#"> <i class="fas fa-desktop"></i></a>
+                        </div>
+                        <div class="item-content">
+                            <h6><a href="#">Bachiller </a></h6>
+                            <p>Consulta aqui los requisitos para conseguir tu Bachiler</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-bemax-item d-flex">
+                        <div class="item-icon">
+                            <a href="#"><i class="far fa-gem"></i></a>
+                        </div>
+                        <div class="item-content">
+                            <h6><a href="#">Tesis</a></h6>
+                            <p>Consulta aqui los requisitos para realizar tu Tesis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-bemax-item d-flex">
+                        <div class="item-icon">
+                            <a href="#"><i class="fas fa-bullhorn"></i></a>
+                        </div>
+                        <div class="item-content">
+                            <h6><a href="#">Titulo</a></h6>
+                            <p>Consulta aqui los requisitos para tramitar tu Titulo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End We are Bemax Area -->
+    <!-- Start Latest Project Area -->
+    <div class="latest-project-area black-bg pt-30 pb-20" id="portfolio">
+        
+    </div>
+    <!-- End Latest Project Area -->
+   
+    <!-- Start Working With Us Area -->
+    <div class="working-with-us-area gray-bg">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-6 col-12 text-center d-flex align-items-center">
+                    <div class="hire-us-content">
+                        <div class="section-title">
+                            <h4>Comunidad de Egresados EPIS</h4>
+                        </div>
+                        <p>Somos una una comunidad de egresados que buscamos mantenernos en comunicacion constante para ofrecerles ofertas de trabajo y demas. </p>
+                        <a href="https://chat.whatsapp.com/LvAFhq1D2TeAbTZjFMXo3v" class="btn hire-us-btn">Unete <i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="hire-us-img">
+                        <img src="assets/img/hire_us.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Working With Us Area -->
+    <!-- Start Carousel Area -->
+    <div class="carousel-area pt-80 pb-80" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h4>Ultimas <br>publicaciones</h4>
+                    </div>
+                    <div class="blog-carousel owl-carousel">
+                        <div class="single-blog-item">
+                            <div class="single-blog-img">
+                                <img src="assets/img/blog_01.jpg" alt="">
+                                <span>October 25, 2021</span>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="post-heading"><a href="#">10 Tips for a Business Strong Start</a> </h5>
+                                <p class="post-content-text">Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                <div class="blog-btn">
+                                    <div class="blog-tags">
+                                        <i class="fas fa-tags"></i>
+                                        <a href="#">Development</a>,
+                                        <a href="#">Maketing</a>
+                                    </div>
+                                    <a href="#" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog-item">
+                            <div class="single-blog-img">
+                                <img src="assets/img/blog_02.jpg" alt="">
+                                <span>October 25, 2021</span>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="post-heading"><a href="#">10 Tips for a Business Strong Start</a> </h5>
+                                <p class="post-content-text">Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                <div class="blog-btn">
+                                    <div class="blog-tags">
+                                        <i class="fas fa-tags"></i>
+                                        <a href="#">Development</a>,
+                                        <a href="#">Maketing</a>
+                                    </div>
+                                    <a href="#" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog-item">
+                            <div class="single-blog-img">
+                                <img src="assets/img/blog_03.jpg" alt="">
+                                <span>October 25, 2021</span>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="post-heading"><a href="#">10 Tips for a Business Strong Start</a> </h5>
+                                <p class="post-content-text">Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                <div class="blog-btn">
+                                    <div class="blog-tags">
+                                        <i class="fas fa-tags"></i>
+                                        <a href="#">Development</a>,
+                                        <a href="#">Maketing</a>
+                                    </div>
+                                    <a href="#" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog-item">
+                            <div class="single-blog-img">
+                                <img src="assets/img/blog_04.jpg" alt="">
+                                <span>October 25, 2021</span>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="post-heading"><a href="#">10 Tips for a Business Strong Start</a> </h5>
+                                <p class="post-content-text">Donec sit amet neque lectus. Ut vitae turpis justo. Nullam a sodales est, at viverra sem. Mauris vitae pellentesque nisi, sit amet viverra orci.</p>
+                                <div class="blog-btn">
+                                    <div class="blog-tags">
+                                        <i class="fas fa-tags"></i>
+                                        <a href="#">Development</a>,
+                                        <a href="#">Maketing</a>
+                                    </div>
+                                    <a href="#" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-title">
+                        <h4>Informacion de<br> Reglamentos y <br>directivas</h4>
+                    </div>
+                    <div class="testimonial-carousel owl-carousel">
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p > <b>PROCEDIMIENTOS TEMPORALES PARA GRADOS Y TITULOS DE FORMA NO
+                                    PRESENCIAL EN LA FACULTAD DE INGENIERíA: </b>
+                                    (Resolución de Decanato Nro. 092-D-2020-FAING/UPT del 22-06,-20
+                                </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_01.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/DIRECTIVA%20PROCEDIMIENTOS_PARA_GRADOS_Y_TITULOS_NO%20PRESENCIAL.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>PROCEDIMIENTOS Y TRÁMITES TEMPORALES NO PRESENCIALES EN LA
+                                    FACULTAD DE INGENIERiA: </b>
+                                    (Resolución Nro. 094-D-2020-FAING/UPT del 26-06-20</p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_02.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/DIRECTIVA%20PROCEDIMIENTOS_Y_TRAMITES_TEMPORALES%20NO%20PRESENCIAL.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>Estatuto UPT: </b>
+                                    Texto adecuado a la Ley Universitaria Nº 30220 Aprobado con Resolución N° 006-2014-UPT-AU
+
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/ESTATUTO%20UPT.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO PARA LA EXPEDICION DE DOCUMENTOS OFICIALES POR LA 
+                                    OFICINA DE SECRETARIA GENERAL DE LA UPT: </b>
+                                    (Aprobado con Resolución Rectoral N°143-2015-UPT-R)
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/EXPEDICIONDOCUMENTOSOFICIALESENSECRETARIAGENERAL.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO DE ADMISIÓN DE
+                                    LA ESCUELA DE POSTGRAD: </b>
+                                    Vigencia desde el 2021
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/REGLAMENTO%20DE%20ADMISION%20DE%20LA%20ESPG(3).pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO DE DUPLICADO DE DIPLOMAS DE GRADOS ACADÉMICOS Y 
+                                    TÍTULOS PROFESIONALES EXPEDIDOS POR LA UNIVERSIDAD PRIVADA DE TACNA: </b>
+                                    (Adecuación Aprobada con Resolución N° 103-2015-UPT-CU)
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/REGLAMENTO%20DE%20DUPLICADO%20DE%20DIPLOMAS%20DE%20GRADOS.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO PARA LA OBTENCIÓN DEL GRADO
+                                    ACADÉMICO DE BACHILLER, TITULO
+                                    PROFESIONAL Y TíTULO DE SEGUNDA
+                                    ESPECIALIDAD PROFESIONAL EN LA FACULTAD
+                                    DE INGENIER|A DE LA UN¡VERSIDAD PRIVADA DE
+                                    TACNA: </b>
+                                    (Aprobado con Resolución de Facultad N" 021-CF'2018-FAING/UPT del 17-09-18
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/REGLAMENTO%20DE%20GRADOS%20Y%20TITULOS%20%20FAING(1).pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO PARA OPTAR GRADOS 
+                                    ACADÉMICOS Y TÍTULOS PROFESIONALES EN 
+                                    LA UNIVERSIDAD PRIVADA DE TACNA: </b>
+                                    
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Encargado</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/Reglamento%20de%20Grados%20y%20Titulos%202018(1).pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>REGLAMENTO GENERAL DE LA UNIVERSIDAD PRIVADA DE TACNA: </b>
+                                    Aprobado según Resolución Nro.020-2015-UPT-CU
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Product Manager</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/REGLAMENTO%20GENERAL%20UPT%202015%20(10-3-15).pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-testimonial-item ">
+                            <div class="testimonial-content d-flex">
+                                <i class="fas fa-quote-left"></i>
+                                <p> <b>RREGLAMENTO DE DIPLOMADO DE POSTGRADO
+                                    DE LA UNIVERSIDAD PRIVADA DE TACNA: </b>
+                                    Aprobado según Resol. Nro.160- 2015-UPT-CU
+                                    </p>
+                            </div>
+                            <div class="author-details d-flex">
+                                <div class="author-img">
+                                    <img src="assets/img/user_03.png" alt="">
+                                </div>
+                                <div class="author-content">
+                                   <a href="#">Michael Green</a>
+                                   <span>Product Manager</span>
+                                </div>
+                                
+                                <div class="blog-btn">                                    
+                                    <a href="assets/Documentacion/REGLAMENTODIPLOMADOPOSTGRADO.pdf" class="btn btn-inline read-more-btn"><i class="fas fa-plus-square"></i>Descargar doc.</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Carousel Area -->
+    <!-- Start Brands Area -->
+    <div class="brand-area gray-bg pt-70 pb-70">
+        <div class="container">
+            <h3>Nuestras Redes Sociales <i class="fab fa-facebook"></i></h3>
+            <div class="brand-carousel owl-carousel">
+                
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="https://www.facebook.com/UPToficial"><img src="assets/img/brands/LogoUpt.png" width="165" height="55" alt="" ></a>
+                    </div>
+                    
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="#"><img src="assets/img/brands/epis.png" width="165" height="55" alt="" ></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="https://www.facebook.com/egresadosepis.upt.58"><img src="assets/img/brands/egresadoepis.png" width="165" height="55" alt=""></a>
+                    </div>
+                </div>
+                <div class="brand-item">
+                    <div class="brand-item-inner">
+                        <a href="https://www.facebook.com/tutoria.epis.upt"><img src="assets/img/brands/tutoria.png" width="165" height="75" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Brands Area -->
+    <!-- Start Footer Area -->
+    <footer class="footer-area pt-60 pb-60 black-bg" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">Egresado EPIS </a>
+                        </div>
+                        <div class="footer-dec">
+                            <p>Somos una Comnidad EPIS de egresados </p>
+                        </div>
+                        <ul class="social-links">
+                            <li><a href="https://www.facebook.com/egresadosepis.upt.58" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Caracteristicas</h6>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="#alumniupt">Sobre Nosotros</a></li>
+                            <li><a href="#">Nuestra Historia</a></li>
+                            <li><a href="#">Terms &and; Condition</a></li>
+                            <li><a href="#">Politicas de Privacidad</a></li>
+                            <li><a href="#">Mapa de sitio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Contáctenos</h6>
+                        </div>
+                        <p>Central: <a href="tel:+052 427212"> +(052) 427212</a></p>
+                        <div class="address-line">
+                            <p>Anexos</p>
+                            <p>Facultad:    408</p>
+                            <p>Escuela:     414</p>
+                            <p>Posgrado:    302</p>
+                        </div>
+                        <div class="widget-title">
+                            <h6>Epis</h6>
+                        </div>
+                        <div class="address-line">
+                            <p>Tutoria: <a href="tel:+112345 6999">+(112) 345 6999</a></p>
+                            <p>Email: <a href="mailto:alumni_upt@upt.pe">alumni_upt@upt.pe</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Consultas</h6>
+                        </div>
+                        <div class="newsletter-text">
+                            <p>Subscribe to Newsletters and Stay informed about our news and events</p>
+                        </div>
+                        <form action="index.html" class="newsletter-form">
+                            <input type="email" placeholder="Your email">
+                            <input class="btn newsletter-btn" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+    <!-- End Copyright Area -->
+    <div class="copyright-area black-bg">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center">
+                    <div class="copyright-area ">
+                        <p>Universidad Privada de Tacna <br> Copyright © 2021 Designed by <a href="http://www.upt.edu.pe/upt/web/index.php">EPIS</a> <br>All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright Area -->
+<!-- JS -->
+   <!-- Popper.js -->
+   <script src="assets/js/popper.min.js"></script>
+   <!-- Bootstrap.js -->
+   <script src="assets/js/bootstrap-4.3.1.min.js"></script>
+   <!-- Modernizr.js -->
+   <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+   <!-- Owl.Carousel.js -->
+   <script src="assets/js/vendor/owl.carousel-2.3.4.min.js"></script>
+   <script src="assets/js/vendor/owl.carousel2.thumbs.min.js"></script>
+   <!-- Waypoints.js -->
+   <script src="assets/js/vendor/waypoints-4.0.1.min.js"></script>
+   <!-- ColorNip.js -->
+   <script src="assets/js/vendor/colornip.min.js"></script>
+   <!-- SlickNav.js -->
+   <script src="assets/js/vendor/slicknav.min.js"></script>
+   <!-- ScrollUp.js -->
+   <script src="assets/js/vendor/jquery.scrollUp.min.js"></script>
+   <!-- MagnificPopup.js -->
+   <script src="assets/js/vendor/magnific-popup.min.js"></script>
+
+   <!-- Main.js -->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
